@@ -1,54 +1,100 @@
 <h1 align="center">Vikas Neriyanuru</h1>
+
 <p align="center">
-  Software engineer focused on cloud-native systems, full-stack applications, and ML-powered tooling.
-</p>
-<p align="center">
-  <a href="https://vikasneriyanuru.com">Portfolio</a>
-  ·
-  <a href="https://www.linkedin.com/in/vikas-neriyanuru">LinkedIn</a>
-  ·
-  <a href="mailto:neriyanuru.v@northeastern.edu">Email</a>
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=800&center=true&vCenter=true&width=900&lines=Cloud-native+software+engineer;Full-stack+builder+with+backend+depth;MS+Computer+Science+%40+Northeastern;Ex-SDE+%40+Jio+Platforms"
+    alt="Typing intro"
+  />
 </p>
 
-## About Me
+<p align="center">
+  <a href="https://vikasneriyanuru.com"><img src="https://img.shields.io/badge/Portfolio-vikasneriyanuru.com-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/vikas-neriyanuru"><img src="https://img.shields.io/badge/LinkedIn-Vikas_Neriyanuru-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:neriyanuru.v@northeastern.edu"><img src="https://img.shields.io/badge/Email-neriyanuru.v%40northeastern.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-- MS in Computer Science at Northeastern University in Boston
-- Former Software Development Engineer at Jio Platforms
-- Built internal platforms used by 400,000+ employees and services handling 50,000+ requests per day
-- Interested in backend engineering, platform systems, cloud infrastructure, and applied ML
+<p align="center">
+  <img src="https://img.shields.io/badge/Boston-MA-1f2937?style=flat-square" alt="Boston, MA">
+  <img src="https://img.shields.io/badge/MS-CS%40Northeastern-1f2937?style=flat-square" alt="MS CS at Northeastern">
+  <img src="https://img.shields.io/badge/Ex-SDE%40Jio_Platforms-1f2937?style=flat-square" alt="Ex-SDE at Jio Platforms">
+  <img src="https://img.shields.io/badge/Focus-Backend%2C%20Cloud%2C%20ML%20Tooling-1f2937?style=flat-square" alt="Focus">
+</p>
 
-## Experience Snapshot
+## About
 
-| Area | Highlights |
-| --- | --- |
-| Product engineering | Built React, Angular, and Node.js platforms that reduced manual processing by 40% through workflow automation and stronger validation flows |
-| Distributed systems | Designed REST microservices backed by MongoDB and MySQL, improved query performance with indexing and Redis caching, and shipped fault-tolerant service patterns |
-| Cloud and DevOps | Worked with AWS, Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD, CloudWatch, and production observability workflows |
-| Applied ML | Built FastAPI model-serving projects, computer vision experiments, and automation tooling around data-heavy workflows |
+I build software that has to feel polished on the surface and stay dependable under load. My background spans internal platforms, REST microservices, cloud infrastructure, and ML-powered product tooling.
 
-## Featured Projects
+At Jio Platforms, I worked on production systems serving 400,000+ employees and helped ship services handling 50,000+ requests per day. At Northeastern, I am continuing to sharpen my systems, cloud, and applied AI depth through graduate coursework and hands-on builds.
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [Resolution-Pulse](https://github.com/VIKAS0804/Resolution-Pulse) | AI life coach that blends bio-aware planning, North Star goals, and LLM-generated nudges for day-to-day execution | Next.js, TypeScript, Claude API |
-| [vikas-portfolio](https://github.com/VIKAS0804/vikas-portfolio) | Windows XP-inspired interactive portfolio with draggable desktop windows and live GitHub integration | Next.js 15, Tailwind CSS, Radix UI |
-| [kambaz-next-js1](https://github.com/VIKAS0804/kambaz-next-js1) | Canvas-style LMS frontend with account flows, course navigation, modules, assignments, quizzes, grades, and people views | Next.js, React, TypeScript, Bootstrap |
-| [kambaz-node-server-app](https://github.com/VIKAS0804/kambaz-node-server-app) | Express backend for the Kambaz LMS with route modules for users, courses, assignments, modules, and enrollments | Node.js, Express |
-| [mlops-lab6-fastapi-wine-api](https://github.com/VIKAS0804/mlops-lab6-fastapi-wine-api) | FastAPI-based wine classification service with model metadata endpoints, testing, and reproducible training steps | Python, FastAPI, scikit-learn |
+## Highlights
 
-## Tech I Reach For
+- Reduced manual processing by 40% through workflow automation and stronger validation flows
+- Improved query performance by 25% with indexing, connection pooling, and Redis caching
+- Supported production systems with structured monitoring, alerting, and incident response under 15 minutes
+- Built across React, Angular, Node.js, Java, Python, SQL, AWS, Docker, and Kubernetes
 
-`Java` `Python` `C/C++` `JavaScript` `TypeScript` `SQL`  
-`React` `Next.js` `Node.js` `Express` `Spring Boot` `Flask` `Django`  
-`AWS` `Docker` `Kubernetes` `GitHub Actions` `Jenkins`  
-`MySQL` `PostgreSQL` `MongoDB` `Redis`
+## Featured Builds
 
-## Currently
+### [Resolution-Pulse](https://github.com/VIKAS0804/Resolution-Pulse)
+AI life coach that combines bio-aware planning, North Star goals, and Claude-powered nudges into a daily execution system.
 
-- Pursuing an MS in Computer Science at Northeastern University
-- Building stronger systems, cloud, and developer-tooling projects
-- Exploring platform engineering, MLOps, and AI-assisted product workflows
+`Next.js` `TypeScript` `Claude API`
+
+### [vikas-portfolio](https://github.com/VIKAS0804/vikas-portfolio)
+Windows XP-inspired interactive portfolio with draggable desktop windows, live GitHub integration, and a distinctive product feel.
+
+Live: [vikasneriyanuru.com](https://vikasneriyanuru.com)
+
+`Next.js 15` `Tailwind CSS` `Radix UI`
+
+### [kambaz-next-js1](https://github.com/VIKAS0804/kambaz-next-js1)
+Canvas-style LMS frontend with account flows, course dashboards, modules, assignments, quizzes, grades, and people views.
+
+Live: [kambaz-next-js1.vercel.app](https://kambaz-next-js1.vercel.app)
+
+`Next.js` `React` `TypeScript` `Bootstrap`
+
+### [kambaz-node-server-app](https://github.com/VIKAS0804/kambaz-node-server-app)
+Express backend for the Kambaz LMS, organized around users, courses, modules, assignments, and enrollments.
+
+`Node.js` `Express` `REST API`
+
+### [mlops-lab6-fastapi-wine-api](https://github.com/VIKAS0804/mlops-lab6-fastapi-wine-api)
+FastAPI-based wine classification service with reproducible training, model metadata endpoints, and pytest-backed API validation.
+
+`Python` `FastAPI` `scikit-learn`
+
+## Tech Stack
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,react,nextjs,nodejs,express,spring,django,flask,aws,docker,kubernetes,mysql,postgres,mongodb,redis,git,githubactions,linux"
+    alt="Tech stack icons"
+  />
+</p>
+
+## GitHub Snapshot
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=VIKAS0804&show_icons=true&hide_border=true&rank_icon=github&theme=transparent"
+    alt="GitHub stats"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIKAS0804&layout=compact&hide_border=true&theme=transparent"
+    alt="Top languages"
+    height="170"
+  />
+</p>
+
+## Current Focus
+
+- Distributed systems and backend engineering
+- Platform engineering, cloud architecture, and CI/CD
+- AI-assisted product workflows and ML tooling
+- Shipping projects that feel intentional, fast, and production-minded
 
 ## Connect
 
-I care about products that feel polished on the surface and dependable under load. If you want to talk about systems, cloud, product engineering, or collaboration, feel free to reach out.
+If you are building something ambitious in backend, cloud, product engineering, or applied AI, I am always happy to talk.
