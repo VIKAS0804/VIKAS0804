@@ -1,100 +1,97 @@
-<h1 align="center">Vikas Neriyanuru</h1>
-
 <p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=800&center=true&vCenter=true&width=900&lines=Cloud-native+software+engineer;Full-stack+builder+with+backend+depth;MS+Computer+Science+%40+Northeastern;Ex-SDE+%40+Jio+Platforms"
-    alt="Typing intro"
-  />
+  <img src="./assets/profile-banner.svg" alt="Vikas Neriyanuru profile banner" />
 </p>
 
 <p align="center">
-  <a href="https://vikasneriyanuru.com"><img src="https://img.shields.io/badge/Portfolio-vikasneriyanuru.com-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/vikas-neriyanuru"><img src="https://img.shields.io/badge/LinkedIn-Vikas_Neriyanuru-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:neriyanuru.v@northeastern.edu"><img src="https://img.shields.io/badge/Email-neriyanuru.v%40northeastern.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://vikasneriyanuru.com">Portfolio</a>
+  ·
+  <a href="https://www.linkedin.com/in/vikas-neriyanuru">LinkedIn</a>
+  ·
+  <a href="mailto:neriyanuru.v@northeastern.edu">Email</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Boston-MA-1f2937?style=flat-square" alt="Boston, MA">
-  <img src="https://img.shields.io/badge/MS-CS%40Northeastern-1f2937?style=flat-square" alt="MS CS at Northeastern">
-  <img src="https://img.shields.io/badge/Ex-SDE%40Jio_Platforms-1f2937?style=flat-square" alt="Ex-SDE at Jio Platforms">
-  <img src="https://img.shields.io/badge/Focus-Backend%2C%20Cloud%2C%20ML%20Tooling-1f2937?style=flat-square" alt="Focus">
-</p>
+## Snapshot
 
-## About
+I build software that has to look intentional, behave predictably, and hold up under real usage. My background sits at the intersection of backend systems, product engineering, cloud infrastructure, and ML-powered tooling.
 
-I build software that has to feel polished on the surface and stay dependable under load. My background spans internal platforms, REST microservices, cloud infrastructure, and ML-powered product tooling.
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <strong>400,000+</strong><br />
+      employees served through enterprise platforms
+    </td>
+    <td width="25%" valign="top">
+      <strong>50,000+</strong><br />
+      requests per day across production services
+    </td>
+    <td width="25%" valign="top">
+      <strong>40%</strong><br />
+      reduction in manual processing via automation
+    </td>
+    <td width="25%" valign="top">
+      <strong>100+</strong><br />
+      code reviews focused on quality and performance
+    </td>
+  </tr>
+</table>
 
-At Jio Platforms, I worked on production systems serving 400,000+ employees and helped ship services handling 50,000+ requests per day. At Northeastern, I am continuing to sharpen my systems, cloud, and applied AI depth through graduate coursework and hands-on builds.
+## What I Build
 
-## Highlights
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-- Reduced manual processing by 40% through workflow automation and stronger validation flows
-- Improved query performance by 25% with indexing, connection pooling, and Redis caching
-- Supported production systems with structured monitoring, alerting, and incident response under 15 minutes
-- Built across React, Angular, Node.js, Java, Python, SQL, AWS, Docker, and Kubernetes
+### Systems
 
-## Featured Builds
+- REST services and backend workflows
+- Cloud-native application infrastructure
+- CI/CD and developer-facing engineering tools
+- Data-backed product features and platform services
 
-### [Resolution-Pulse](https://github.com/VIKAS0804/Resolution-Pulse)
-AI life coach that combines bio-aware planning, North Star goals, and Claude-powered nudges into a daily execution system.
+    </td>
+    <td width="50%" valign="top">
 
-`Next.js` `TypeScript` `Claude API`
+### Product Style
 
-### [vikas-portfolio](https://github.com/VIKAS0804/vikas-portfolio)
-Windows XP-inspired interactive portfolio with draggable desktop windows, live GitHub integration, and a distinctive product feel.
+- Strong backend foundations
+- Clear user-facing behavior
+- Measurable performance improvements
+- Production-minded implementation over demo-only polish
 
-Live: [vikasneriyanuru.com](https://vikasneriyanuru.com)
+    </td>
+  </tr>
+</table>
 
-`Next.js 15` `Tailwind CSS` `Radix UI`
+## Featured Projects
 
-### [kambaz-next-js1](https://github.com/VIKAS0804/kambaz-next-js1)
-Canvas-style LMS frontend with account flows, course dashboards, modules, assignments, quizzes, grades, and people views.
+| Project | Why it matters | Stack |
+| --- | --- | --- |
+| [Resolution-Pulse](https://github.com/VIKAS0804/Resolution-Pulse) | AI life coach that combines bio-aware planning, goal tracking, and LLM-powered nudges into a day-to-day execution system. | `Next.js` `TypeScript` `Claude API` |
+| [vikas-portfolio](https://github.com/VIKAS0804/vikas-portfolio) | Interactive Windows XP-inspired portfolio that turns a personal site into a product experience instead of a generic landing page. | `Next.js 15` `Tailwind CSS` `Radix UI` |
+| [kambaz-next-js1](https://github.com/VIKAS0804/kambaz-next-js1) | Canvas-style LMS frontend with dashboards, modules, assignments, grades, quizzes, and account flows. | `Next.js` `React` `TypeScript` `Bootstrap` |
+| [kambaz-node-server-app](https://github.com/VIKAS0804/kambaz-node-server-app) | Express backend for the Kambaz LMS with organized route modules for users, courses, assignments, modules, and enrollments. | `Node.js` `Express` `REST API` |
+| [mlops-lab6-fastapi-wine-api](https://github.com/VIKAS0804/mlops-lab6-fastapi-wine-api) | FastAPI-based ML service with reproducible training, model metadata endpoints, and automated API validation. | `Python` `FastAPI` `scikit-learn` |
 
-Live: [kambaz-next-js1.vercel.app](https://kambaz-next-js1.vercel.app)
+## Toolbox
 
-`Next.js` `React` `TypeScript` `Bootstrap`
+**Languages**  
+`Java` `Python` `C/C++` `JavaScript` `TypeScript` `SQL` `Bash`
 
-### [kambaz-node-server-app](https://github.com/VIKAS0804/kambaz-node-server-app)
-Express backend for the Kambaz LMS, organized around users, courses, modules, assignments, and enrollments.
+**Frameworks and Runtime**  
+`React` `Next.js` `Node.js` `Express` `Spring Boot` `Flask` `Django`
 
-`Node.js` `Express` `REST API`
+**Cloud and DevOps**  
+`AWS` `Docker` `Kubernetes` `GitHub Actions` `Jenkins` `CloudWatch` `CI/CD`
 
-### [mlops-lab6-fastapi-wine-api](https://github.com/VIKAS0804/mlops-lab6-fastapi-wine-api)
-FastAPI-based wine classification service with reproducible training, model metadata endpoints, and pytest-backed API validation.
+**Data and Storage**  
+`MySQL` `PostgreSQL` `MongoDB` `Redis` `Pandas` `NumPy` `scikit-learn`
 
-`Python` `FastAPI` `scikit-learn`
+## Right Now
 
-## Tech Stack
+- MS in Computer Science at Northeastern University
+- Going deeper on distributed systems, cloud architecture, and platform engineering
+- Building projects that are both technically solid and easy to understand quickly
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,react,nextjs,nodejs,express,spring,django,flask,aws,docker,kubernetes,mysql,postgres,mongodb,redis,git,githubactions,linux"
-    alt="Tech stack icons"
-  />
-</p>
+## Reach Out
 
-## GitHub Snapshot
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=VIKAS0804&show_icons=true&hide_border=true&rank_icon=github&theme=transparent"
-    alt="GitHub stats"
-    height="170"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIKAS0804&layout=compact&hide_border=true&theme=transparent"
-    alt="Top languages"
-    height="170"
-  />
-</p>
-
-## Current Focus
-
-- Distributed systems and backend engineering
-- Platform engineering, cloud architecture, and CI/CD
-- AI-assisted product workflows and ML tooling
-- Shipping projects that feel intentional, fast, and production-minded
-
-## Connect
-
-If you are building something ambitious in backend, cloud, product engineering, or applied AI, I am always happy to talk.
+If you are building in backend, cloud, full-stack product engineering, or applied AI tooling, I am always happy to connect.
