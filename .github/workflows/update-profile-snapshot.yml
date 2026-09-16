@@ -26,18 +26,20 @@ jobs:
           node-version: 22
 
       - name: Render the snapshot
-        run: node scripts/render-github-snapshot.mjs
+        run: |
+          node scripts/render-github-snapshot.mjs
+          node scripts/render-project-showcase.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish the snapshot when it changes
         run: |
-          if git diff --quiet -- assets/github-snapshot.svg; then
+          if git diff --quiet -- assets; then
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-snapshot.svg
-          git commit -m "chore: refresh profile snapshot"
+          git add assets
+          git commit -m "chore: refresh profile visuals"
           git push

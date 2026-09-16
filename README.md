@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/VIKAS0804.png" width="112" alt="Vikas Neriyanuru" />
+</p>
+
 <h1 align="center">Hi, I'm Vikas 👋</h1>
 
 <p align="center">
@@ -18,6 +22,12 @@ Most of my work sits somewhere between backend systems, cloud infrastructure, ma
 Right now I build product features at Superstars and support more than 60 students as a Graduate Teaching Assistant at Northeastern. Before graduate school, I worked at Jio Platforms on internal systems used by more than 400,000 employees and backend services handling over 50,000 requests each day.
 
 I like projects that have a real technical question at the center. When I put something on GitHub, I want another engineer to understand why it exists, run it without guessing, and see the tradeoffs behind the decisions.
+
+## A small tour of my work
+
+<p align="center">
+  <img src="./assets/project-showcase.svg" width="100%" alt="Six featured projects by Vikas Neriyanuru" />
+</p>
 
 ## Projects I have enjoyed building
 
