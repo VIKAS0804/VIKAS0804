@@ -8,7 +8,8 @@ on:
     branches:
       - main
     paths:
-      - scripts/render-github-snapshot.mjs
+      - scripts/**
+      - .github/workflows/update-profile-snapshot.yml
 
 permissions:
   contents: write
