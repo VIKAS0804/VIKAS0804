@@ -1,81 +1,76 @@
-<h1 align="center">Hey, I'm Vikas Neriyanuru 👋</h1>
+<h1 align="center">Hi, I'm Vikas 👋</h1>
 
 <p align="center">
-  <strong>Software engineer building reliable cloud systems, applied-ML products, and polished full-stack experiences.</strong>
+  Software Developer Intern at Superstars &nbsp;•&nbsp; Graduate Teaching Assistant at Khoury College<br/>
+  MS in Computer Science at Northeastern &nbsp;•&nbsp; Previously a Software Development Engineer at Jio Platforms
 </p>
 
 <p align="center">
-  Software Developer Intern @ Superstars &nbsp;·&nbsp; Graduate TA @ Khoury College<br/>
-  M.S. Computer Science @ Northeastern &nbsp;·&nbsp; Former SDE @ Jio Platforms
+  <a href="https://vikasneriyanuru.com">Portfolio</a> &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/vikas-neriyanuru">LinkedIn</a> &nbsp;•&nbsp;
+  <a href="mailto:neriyanuru.v@northeastern.edu">Email</a>
 </p>
+
+## About me
+
+Most of my work sits somewhere between backend systems, cloud infrastructure, machine learning, and the product experience people actually see. I enjoy following a problem all the way from the data model and deployment pipeline to the final screen.
+
+Right now I build product features at Superstars and support more than 60 students as a Graduate Teaching Assistant at Northeastern. Before graduate school, I worked at Jio Platforms on internal systems used by more than 400,000 employees and backend services handling over 50,000 requests each day.
+
+I like projects that have a real technical question at the center. When I put something on GitHub, I want another engineer to understand why it exists, run it without guessing, and see the tradeoffs behind the decisions.
+
+## Projects I have enjoyed building
+
+### [MoodSync](https://github.com/VIKAS0804/Moodsync)
+
+A mood controlled music experience for Spotify libraries. Spotify no longer gives new apps access to audio features, so I built the scoring pipeline myself with preview audio, local signal processing, and a calibrated model. It reached a Spearman correlation of 0.82 and analyzed 46 of 50 tracks in the evaluation library.
+
+`FastAPI` `React Native` `PostgreSQL` `librosa`
+
+### [TicketForge](https://github.com/ALearningCurve/ticket-forge)
+
+An MLOps platform that recommends the right engineer for a ticket using skills, history, and ticket context. I contributed 30 merged pull requests across data ingestion, training, model serving, monitoring, deployment, and infrastructure. Our team placed third at Northeastern's MLOps Expo and presented the system at Google Cambridge.
+
+`Python` `FastAPI` `Airflow` `MLflow` `GCP` `Terraform`
+
+### [ThinkStruct Patent Search](https://github.com/VIKAS0804/ThinkStruct-assessment)
+
+A hybrid search engine for 640 patents with patent, claim, and paragraph retrieval. It combines dense search with reciprocal rank fusion and includes a training pipeline that improved held out AUC from 0.80 to 0.95. The repository also contains a pgvector design for more than ten million patents and a suite of 153 tests.
+
+`Python` `Flask` `sentence transformers` `pgvector`
+
+### [Impulse Coach](https://github.com/VIKAS0804/fintech-coach-app)
+
+A mobile fintech coach that looks for impulse spending patterns in Plaid transactions and turns them into useful prompts. Supabase handles authentication, Edge Functions, and PostgreSQL Row Level Security so every financial record stays scoped to its owner.
+
+`Expo` `TypeScript` `Supabase` `Plaid` `PostgreSQL`
+
+### [Personal IoT Sensor Dashboard](https://github.com/VIKAS0804/personal-iot-sensor-dashboard)
+
+A shipment condition monitor built around secure MQTT. The React Native app receives live temperature and humidity readings, then a Cloud Run service writes them to Firestore and publishes events through Pub/Sub.
+
+`React Native` `MQTT` `Node.js` `Cloud Run` `Firestore`
+
+### [Tribunal](https://github.com/VIKAS0804/Zoro)
+
+A Bitcoin native marketplace for AI agents, built at the MIT Bitcoin Hackathon. Payments use three HTLC locks, reputation comes from on chain outcomes, and disputed work goes through commit and reveal voting by a staked jury.
+
+`Next.js` `TypeScript` `Bitcoin Script` `PostgreSQL`
+
+## What I work with
+
+Java and Python are the languages I reach for most often on the backend. I also work comfortably with TypeScript, Go, SQL, Spring Boot, FastAPI, React, Next.js, React Native, and Expo.
+
+For infrastructure and data work, I use AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions, PostgreSQL, MongoDB, and Redis. My machine learning work has included PyTorch, scikit learn, MLflow, Airflow, semantic retrieval, and vector databases.
+
+## GitHub activity
 
 <p align="center">
-  <a href="https://vikasneriyanuru.com"><img src="https://img.shields.io/badge/Portfolio-vikasneriyanuru.com-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/vikas-neriyanuru"><img src="https://img.shields.io/badge/LinkedIn-Vikas_Neriyanuru-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:neriyanuru.v@northeastern.edu"><img src="https://img.shields.io/badge/Email-Lets_connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="./assets/github-snapshot.svg" width="100%" alt="Vikas's GitHub activity during the past twelve months" />
 </p>
 
-## What I build
+This snapshot is generated directly from GitHub's API and stored in this repository, so it does not depend on an external card service. A bot refreshes the image each day, but those refreshes are not counted as my contributions.
 
-I like software that is easy to use on the surface and thoughtfully engineered underneath. My work spans distributed systems, backend APIs, cloud infrastructure, mobile/web products, and ML pipelines—from enterprise platforms used by **400,000+ employees** to projects that turn research ideas into tested, runnable systems.
+## Say hello
 
-Right now, I am building product features at **Superstars**, supporting **60+ students** as a Graduate Teaching Assistant at Northeastern's Khoury College, and completing my M.S. in Computer Science.
-
-## Impact at a glance
-
-| Impact | What it represents |
-| --- | --- |
-| **400,000+ users** | Reach of enterprise platforms I helped build at Jio Platforms |
-| **50,000+ requests/day** | Production traffic handled by backend services |
-| **40% less manual work** | Reduction delivered through workflow automation |
-| **100+ code reviews** | Reviews focused on performance, quality, and maintainability |
-| **60+ students** | Learners supported through technical guidance and feedback |
-| **30 merged PRs** | Engineering contributions to the TicketForge MLOps platform |
-
-## Selected work
-
-| Project | Engineering story | Stack |
-| --- | --- | --- |
-| [**MoodSync**](https://github.com/VIKAS0804/Moodsync) | Mood-adaptive music discovery built around a custom audio-analysis pipeline after Spotify restricted its audio-features API. Reached **0.82 Spearman correlation** and **92% analysis coverage** on the evaluation library. | `FastAPI` `React Native` `PostgreSQL` `librosa` |
-| [**TicketForge**](https://github.com/ALearningCurve/ticket-forge) | Production-style MLOps system for AI-assisted ticket assignment: ingestion, training, model registry, monitoring, Airflow, Cloud Run, and Terraform. Placed **3rd at Northeastern's MLOps Expo** and was presented at Google Cambridge. | `Python` `FastAPI` `Airflow` `MLflow` `GCP` |
-| [**ThinkStruct Patent Search**](https://github.com/VIKAS0804/ThinkStruct-assessment) | Hybrid patent retrieval across **640 patents**, claim/paragraph search, RRF re-ranking, and a fine-tuning pipeline that improved held-out AUC from **0.80 to 0.95**. Includes a pgvector design for **10M+ patents** and **153 tests**. | `Python` `Flask` `sentence-transformers` `pgvector` |
-| [**Impulse Coach**](https://github.com/VIKAS0804/fintech-coach-app) | Mobile-first fintech coach that detects impulse-spending patterns from Plaid transactions while enforcing per-user isolation with PostgreSQL Row Level Security. | `Expo` `TypeScript` `Supabase` `Plaid` `PostgreSQL` |
-| [**IoT Sensor Dashboard**](https://github.com/VIKAS0804/personal-iot-sensor-dashboard) | Shipment-condition monitoring across secure MQTT, a React Native client, Cloud Run ingestion, Firestore persistence, and Pub/Sub events. | `React Native` `MQTT` `Node.js` `GCP` |
-| [**Tribunal**](https://github.com/VIKAS0804/Zoro) | Bitcoin-native AI-agent marketplace using three HTLC locks, on-chain reputation, and commit-reveal jury voting, built at the MIT Bitcoin Hackathon 2026. | `Next.js` `TypeScript` `Bitcoin Script` `PostgreSQL` |
-
-## Tools I reach for
-
-**Languages**<br/>
-`Java` `Python` `Go` `TypeScript` `JavaScript` `C/C++` `SQL` `Bash`
-
-**Backend & product**<br/>
-`Spring Boot` `FastAPI` `Flask` `Node.js` `React` `Next.js` `React Native` `Expo`
-
-**Cloud, data & delivery**<br/>
-`AWS` `GCP` `Docker` `Kubernetes` `Terraform` `GitHub Actions` `PostgreSQL` `MongoDB` `Redis`
-
-**ML systems**<br/>
-`scikit-learn` `PyTorch` `sentence-transformers` `MLflow` `Airflow` `pgvector` `Pandas`
-
-## How I work
-
-- Start with the system boundary and measurable outcome, then make the happy path simple.
-- Treat tests, observability, security, and documentation as part of the product—not cleanup work.
-- Prefer honest benchmarks, explicit tradeoffs, and reproducible demos over vague claims.
-
-## Current focus
-
-- Distributed systems, high-signal backend engineering, and cloud architecture
-- Production MLOps, semantic retrieval, and AI-assisted product workflows
-- Mobile and web experiences that make complex systems feel approachable
-
-## GitHub snapshot
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=VIKAS0804&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&cache_seconds=43200" alt="Vikas's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIKAS0804&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&cache_seconds=43200" alt="Most-used languages" />
-</p>
-
-## Let's connect
-
-I am especially interested in backend, platform, cloud, full-stack, and applied-AI engineering. If you are building something ambitious in that space, reach me through [LinkedIn](https://www.linkedin.com/in/vikas-neriyanuru) or [email](mailto:neriyanuru.v@northeastern.edu).
+I am always happy to talk about backend engineering, cloud systems, full stack products, MLOps, or an interesting problem that does not fit neatly into one category. You can find me on [LinkedIn](https://www.linkedin.com/in/vikas-neriyanuru) or reach me by [email](mailto:neriyanuru.v@northeastern.edu).
